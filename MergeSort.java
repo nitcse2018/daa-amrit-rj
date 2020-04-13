@@ -1,3 +1,4 @@
+//Example of Divide and Conquer Algorithm
 public class MergeSort 
 { 
 	void merge(int arr[], int l, int m, int r) 
