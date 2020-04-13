@@ -1,4 +1,11 @@
 //Solve Rat in a Maze problem using backtracking
+/*Rat starts from source and has to reach the destination(opposite corner). Rat can only movw in two directions: right and down. 0 is dead end*/
+/*Output:
+1 0 0 0 0
+1 1 1 1 0
+0 0 0 1 0
+0 0 0 1 1
+0 0 0 0 1*/
 public class RatinMaze { 
 	static int N; 
 	void printSolution(int sol[][]) 
@@ -47,9 +54,10 @@ public class RatinMaze {
 	{ 
 		RatinMaze rat = new RatinMaze(); 
 		int maze[][] = {{1,0,1,0,0}, 
-						{1,1,1,1,1}, 
-						{0,1,0,1,0}, 
-						{0,1,1,0,1}}; 
+				{1,1,1,1,1}, 
+				{0,1,0,1,0}, 
+				{1,1,0,1,1},
+				{0,1,1,0,1}}; 
 		N = maze.length;
 		rat.solveMaze(maze); 
 	} 
