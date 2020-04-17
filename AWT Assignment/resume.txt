@@ -1,0 +1,29 @@
+-----------------------RESUME-------------------------------
+
+ PERSONAL DETAILS
+
+ Name :- Mahesh Babu
+
+ Sex :-  Male
+
+ DOB :-  11/08/99
+
+ Mobile :-  8976123456
+
+ Email ID :-  mahesh.babu@gmail.co.in
+
+ Address :- Narela, New Delhi
+
+ ----------------------------------------------------------------
+
+ EDUCATION
+
+ Institute name :- National Institute of Technology, Delhi
+
+ Branch :- CSE
+
+ Semester :- 4
+
+ CGPA :- 8.45
+
+ Interest :- Deep Learning
