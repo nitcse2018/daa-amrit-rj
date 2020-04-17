@@ -3,7 +3,7 @@ public class Fibonacci
 { 
 	int[] fib(int n) 
 	{ 
-		int f[] = new int[n+2];
+		int f[] = new int[n+1];
 		int i; 
 		f[0] = 0; 
 		f[1] = 1; 
@@ -15,7 +15,7 @@ public class Fibonacci
 	public static void main (String args[]) 
 	{ 
 		Fibonacci ob=new Fibonacci();
-		int n = 25; 
+		int n = 10; 
 		System.out.println(ob.fib(n)); 
 	} 
 } 
