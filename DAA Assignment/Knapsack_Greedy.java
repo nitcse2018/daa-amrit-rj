@@ -1,4 +1,4 @@
- //0-1 Knancksack problem using Greedy Algorithm
+ //0-1 Knancksack problem using Greedy Algorithm(Either take the item or leave the item)
  /*Output:
  400*/
  public class Knapsack{
