@@ -1,5 +1,5 @@
 # DAA and JAVA Assignment
-This repository is created for assignment submission.
-Author:
+## Name
 Amrit Raj
+## Roll No
 181210008
