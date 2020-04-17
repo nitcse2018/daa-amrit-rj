@@ -1,4 +1,4 @@
-//N Queen program using branch and bound algorithm
+/*N Queen program using branch and bound algorithm*/
 /*N queens have to be put on N*N chess matrix safely, so that none of queens could come in other queens' regions.*/
 /*Output:
 - Q - - 
