@@ -1,4 +1,8 @@
-// Fibonacci Series using Dynamic Programming 
+// Fibonacci Series using Dynamic Programming
+/*Output:
+Fibonacci Series: 
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]*/ 
+import java.util.Arrays;
 public class Fibonacci 
 { 
 	int[] fib(int n) 
@@ -9,13 +13,13 @@ public class Fibonacci
 		f[1] = 1; 
 		for (i = 2; i <= n; i++)  
 			f[i] = f[i-1] + f[i-2];
-		return f[n]; 
+		return f; 
 	} 
 	
 	public static void main (String args[]) 
 	{ 
 		Fibonacci ob=new Fibonacci();
 		int n = 10; 
-		System.out.println(ob.fib(n)); 
+		System.out.println("Fibonacci Series: \n"+Arrays.toString(ob.fib(n))); 
 	} 
-} 
+}
